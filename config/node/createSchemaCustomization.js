@@ -20,6 +20,7 @@ module.exports = ({ actions }) => {
         author: Author! @link(by: "key"),
         cover: String,
         date: Date!,
+        intro: String,
         path: String!,
         tags: [String]!,
         title: String!,
